@@ -46,7 +46,7 @@ function iLoveTheBeatles(beat_count) {
       repeat.push ('I love the Beatles!');
       beat_diff = (beat_diff - 1);
      }
-  while(beat_diff >= 0);
+  while(beat_diff > 0);
   return repeat;
 }
 
